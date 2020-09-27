@@ -1,21 +1,12 @@
 {
-    // VSCodeに表示されるワークスペース名
     "name": "sandbox-wsl-docker-go",
-
-    // Docker buildを実行するディレクトリ。devcontainer.jsonファイルからの相対パスで設定します。
     "context": "..",
-
-    // コンテナの内容を定義するDockerfileのパス。devcontainer.jsonファイルからの相対パスで設定します。
     "dockerFile": "../docker/Dockerfile",
-
-    // コンテナ側のVSCodeの設定値（setting.json）を変更したい場合、設定します。
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash",
         "go.formatTool": "goimports",
         "go.useLanguageServer": true,
     },
-
-    // コンテナ側のVSCodeに拡張機能をインストールする必要がある場合、拡張機能のIDを配列で設定します。
     "extensions": [
         "golang.Go"
     ]
