@@ -1,4 +1,4 @@
-# sandbox-wsl-docker-go
+# wsl-docker-go
 sandbox for wsl, docker, vscode, go
 
 [playground](https://play.golang.org/)
