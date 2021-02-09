@@ -1,5 +1,7 @@
-# wsl-docker-go
+# v-svcs
 sandbox for wsl, docker, vscode, go
+
+various server collections
 
 [playground](https://play.golang.org/)
 
